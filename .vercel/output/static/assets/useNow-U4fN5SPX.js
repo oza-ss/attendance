@@ -1,0 +1,1 @@
+import{j as o,D as a,k as r}from"./index-Bw3kk00K.js";function u(t=3e4){const n=r(new Date);let e;return o(()=>{e=setInterval(()=>{n.value=new Date},t)}),a(()=>{e&&clearInterval(e)}),{now:n}}export{u};

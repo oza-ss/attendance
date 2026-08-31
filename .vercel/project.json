@@ -1,0 +1,16 @@
+{
+  "projectId": "prj_bt21opgOiNKyCJ2YjeueE5se49Li",
+  "orgId": "team_XS47oajWfx3nZVjZrMAD7MvC",
+  "projectName": "attendance",
+  "settings": {
+    "createdAt": 1787709208526,
+    "framework": "vite",
+    "devCommand": null,
+    "installCommand": null,
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}

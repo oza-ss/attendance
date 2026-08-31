@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+.nvmrc
+.env
+.env.local
+*.log
+.DS_Store

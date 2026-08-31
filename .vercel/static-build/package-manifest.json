@@ -1,0 +1,4960 @@
+{
+  "version": "20260304",
+  "runtime": "node",
+  "framework": "vite",
+  "runtimeVersion": {
+    "resolved": "24"
+  },
+  "dependencies": [
+    {
+      "name": "@supabase/supabase-js",
+      "type": "direct",
+      "scopes": [
+        "prod"
+      ],
+      "requested": "^2.47.10",
+      "resolved": "2.112.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vitejs/plugin-vue",
+      "type": "direct",
+      "scopes": [
+        "dev"
+      ],
+      "requested": "^5.2.1",
+      "resolved": "5.2.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "dayjs",
+      "type": "direct",
+      "scopes": [
+        "prod"
+      ],
+      "requested": "^1.11.13",
+      "resolved": "1.11.23",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "pinia",
+      "type": "direct",
+      "scopes": [
+        "prod"
+      ],
+      "requested": "^2.2.6",
+      "resolved": "2.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "typescript",
+      "type": "direct",
+      "scopes": [
+        "dev"
+      ],
+      "requested": "~5.6.2",
+      "resolved": "5.6.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vant",
+      "type": "direct",
+      "scopes": [
+        "prod"
+      ],
+      "requested": "^4.9.15",
+      "resolved": "4.10.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vercel",
+      "type": "direct",
+      "scopes": [
+        "dev"
+      ],
+      "requested": "^59.5.0",
+      "resolved": "59.5.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vite",
+      "type": "direct",
+      "scopes": [
+        "dev"
+      ],
+      "requested": "^6.0.0",
+      "resolved": "6.4.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vitest",
+      "type": "direct",
+      "scopes": [
+        "dev"
+      ],
+      "requested": "^3.2.0",
+      "resolved": "3.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vue",
+      "type": "direct",
+      "scopes": [
+        "prod"
+      ],
+      "requested": "^3.5.13",
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vue-router",
+      "type": "direct",
+      "scopes": [
+        "prod"
+      ],
+      "requested": "^4.5.0",
+      "resolved": "4.6.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vue-tsc",
+      "type": "direct",
+      "scopes": [
+        "dev"
+      ],
+      "requested": "^2.1.10",
+      "resolved": "2.2.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "wrangler",
+      "type": "direct",
+      "scopes": [
+        "dev"
+      ],
+      "requested": "^4.125.0",
+      "resolved": "4.125.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@babel/helper-string-parser",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "7.29.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@babel/helper-validator-identifier",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "7.29.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@babel/parser",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "7.29.8",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@babel/types",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "7.29.8",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@bytecodealliance/preview2-shim",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.17.6",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@cloudflare/kv-asset-handler",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.5.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@cloudflare/unenv-preset",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.16.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@cloudflare/workerd-darwin-64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.20260820.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@cloudflare/workerd-darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.20260820.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@cloudflare/workerd-linux-64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.20260820.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@cloudflare/workerd-linux-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.20260820.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@cloudflare/workerd-windows-64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.20260820.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@cspotcode/source-map-support",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.8.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@edge-runtime/format",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.2.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@edge-runtime/node-utils",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@edge-runtime/ponyfill",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.4.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@edge-runtime/primitives",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@edge-runtime/vm",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@emnapi/core",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "peer",
+        "optional"
+      ],
+      "resolved": "1.11.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@emnapi/runtime",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.11.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@emnapi/wasi-threads",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "peer",
+        "optional"
+      ],
+      "resolved": "1.2.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/aix-ppc64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/openharmony-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@fastify/busboy",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/colour",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-darwin-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-freebsd-wasm32",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-darwin-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-arm",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-ppc64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-riscv64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-s390x",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-linux-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-linuxmusl-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-libvips-linuxmusl-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-linux-arm",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-linux-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-linux-ppc64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-linux-riscv64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-linux-s390x",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-linux-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-linuxmusl-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-linuxmusl-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-wasm32",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-webcontainers-wasm32",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-win32-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-win32-ia32",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@img/sharp-win32-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@isaacs/balanced-match",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@isaacs/brace-expansion",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@isaacs/fs-minipass",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.1.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "1.5.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.3.9",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@mapbox/node-pre-gyp",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-darwin-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-freebsd-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-linux-arm-gnueabihf",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-linux-arm64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-linux-arm64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-linux-riscv64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-linux-x64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-linux-x64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-win32-arm64-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-win32-ia32-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/keyring-win32-x64-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/lzma-linux-x64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.5.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@napi-rs/wasm-runtime",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.2.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@nodelib/fs.scandir",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@nodelib/fs.stat",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@nodelib/fs.walk",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.8",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-project/types",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.110.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-android-arm-eabi",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-android-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-darwin-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-freebsd-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-arm-gnueabihf",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-arm-musleabihf",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-arm64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-arm64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-ppc64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-riscv64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-riscv64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-s390x-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-openharmony-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-wasm32-wasi",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-win32-arm64-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-win32-ia32-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@oxc-transform/binding-win32-x64-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@poppinss/colors",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.6",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@poppinss/dumper",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.6.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@poppinss/exception",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@renovatebot/pep440",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.2.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-android-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-darwin-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-freebsd-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm-gnueabihf",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-linux-arm64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-openharmony-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-wasm32-wasi",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-win32-arm64-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/binding-win32-x64-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rolldown/pluginutils",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/pluginutils",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.4.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-android-arm-eabi",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-android-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-darwin-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-freebsd-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-freebsd-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-gnueabihf",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm-musleabihf",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-arm64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-loong64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-ppc64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-riscv64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-s390x-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-linux-x64-musl",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-openbsd-x64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-openharmony-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-win32-arm64-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-win32-ia32-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@sinclair/typebox",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.25.24",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@sindresorhus/is",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@speed-highlight/core",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.24",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@supabase/auth-js",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "2.112.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@supabase/functions-js",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "2.112.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@supabase/phoenix",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "0.4.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@supabase/postgrest-js",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "2.112.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@supabase/realtime-js",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "2.112.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@supabase/storage-js",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "2.112.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@tootallnate/once",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@ts-morph/common",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.11.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@tybys/wasm-util",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "0.10.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@types/chai",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.2.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@types/deep-eql",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@types/estree",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.9",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@types/json-schema",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.0.15",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@types/node",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "20.11.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vant/popperjs",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "1.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vant/use",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "1.6.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/backends",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/blob",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.8.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/build-utils",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "14.4.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/cervel",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.1.49",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/cli-auth",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.3.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/cli-config",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.2.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/cli-exec",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/container",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/detect-agent",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/elysia",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/error-utils",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.2.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/express",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/fastify",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/fun",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/gatsby-plugin-vercel-analytics",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/gatsby-plugin-vercel-builder",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.2.44",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/go",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/h3",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/hono",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/hydrogen",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/koa",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/nestjs",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/next",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "6.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/nft",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.10.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/node",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/oidc",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.8.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/prepare-flags-definitions",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/python",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "8.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/python-analysis",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.14.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/redwood",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/remix-builder",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/ruby",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/rust",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/sandbox",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/static-build",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/static-config",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.4.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vercel/vc-native-darwin-arm64",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "59.5.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vitest/expect",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vitest/mocker",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vitest/pretty-format",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vitest/runner",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vitest/snapshot",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vitest/spy",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vitest/utils",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@volar/language-core",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.4.15",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@volar/source-map",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.4.15",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@volar/typescript",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.4.15",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/compiler-core",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/compiler-dom",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/compiler-sfc",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/compiler-ssr",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/compiler-vue2",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.7.16",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/devtools-api",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "6.6.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/language-core",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.2.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/reactivity",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/runtime-core",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/runtime-dom",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/server-renderer",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@vue/shared",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.5.41",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "@workflow/serde",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.0-beta.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "abbrev",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "acorn",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "8.18.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "acorn-import-attributes",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.9.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "agent-base",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.1.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "ajv",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "8.6.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "alien-signals",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.13",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "any-promise",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "arg",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "argparse",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "assertion-error",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "async-listen",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "async-retry",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.3.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "async-sema",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "b4a",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.8.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "balanced-match",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "bare-events",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.9.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "bindings",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.5.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "blake3-wasm",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "brace-expansion",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "braces",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "buffer-crc32",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.2.13",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "bytes",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "cac",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "6.7.14",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "chai",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.3.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "check-error",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "chokidar",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "chownr",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "cjs-module-lexer",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "code-block-writer",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "10.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "concat-map",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "consola",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.4.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "content-type",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "convert-hrtime",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "cookie",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "cross-spawn",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.0.6",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "csstype",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.2.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "de-indent",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "debug",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.4.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "deep-eql",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "define-lazy-prop",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "depd",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.1.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "detect-libc",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "edge-runtime",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.5.9",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "end-of-stream",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.4.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "entities",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "7.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "error-stack-parser-es",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "es-module-lexer",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.7.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "esbuild",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.25.12",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "estree-walker",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "2.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "etag",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.8.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "events-intercept",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "events-universal",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "execa",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "expect-type",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.4.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fast-deep-equal",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.1.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fast-fifo",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.3.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fast-glob",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.3.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fastq",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.20.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fd-slicer",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fdir",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "6.5.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "file-uri-to-path",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fill-range",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fs-extra",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "11.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "fsevents",
+      "type": "transitive",
+      "scopes": [
+        "dev",
+        "optional"
+      ],
+      "resolved": "2.3.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "generic-pool",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.4.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "get-port",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "get-stream",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "get-tsconfig",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.14.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "glob",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "13.0.6",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "glob-parent",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.1.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "graceful-fs",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.2.11",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "he",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "http-errors",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.7.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "https-proxy-agent",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.0.6",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "human-signals",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "iceberg-js",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "0.8.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "iconv-lite",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.4.24",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "inherits",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "is-buffer",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "is-docker",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.2.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "is-extglob",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "is-glob",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "is-node-process",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "is-number",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "is-stream",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "is-wsl",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "isexe",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "jose",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.9.6",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "js-tokens",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "9.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "js-yaml",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "json-schema-to-ts",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.6.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "json-schema-traverse",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "jsonc-parser",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "jsonfile",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "6.2.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "jsonlines",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "kleur",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "loupe",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "lru-cache",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "11.5.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "luxon",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.7.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "magic-string",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "0.30.21",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "merge-stream",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "merge2",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.4.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "micro",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "9.3.5-canary.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "micromatch",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.8",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "mime-db",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.52.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "mime-types",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.35",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "mimic-fn",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "miniflare",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.20260820.0-alpha",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "minimatch",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "9.0.9",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "minipass",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.1.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "minizlib",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "mkdirp",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "mri",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "ms",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "muggle-string",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.4.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "nanoid",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "3.3.18",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "node-fetch",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.6.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "node-gyp-build",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.8.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "nopt",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "8.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "npm-run-path",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "once",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.4.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "onetime",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.1.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "open",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "8.4.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "os-paths",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.4.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "oxc-transform",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.111.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "p-finally",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "parse-ms",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "path-browserify",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "path-key",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "path-scurry",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "path-to-regexp",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "6.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "path-to-regexp-updated",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "6.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "pathe",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "pathval",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "pend",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "picocolors",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "1.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "picomatch",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "postcss",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "8.5.26",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "pretty-ms",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "promisepipe",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "pump",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "punycode",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.3.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "queue-microtask",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "raw-body",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.4.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "readdirp",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "require-from-string",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "resolve-from",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "resolve-pkg-maps",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "resolve.exports",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "retry",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.13.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "reusify",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "rolldown",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.0-rc.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "rollup",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.62.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "run-parallel",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "safer-buffer",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "sandbox",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "semver",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.8.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "setprototypeof",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "sharp",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.35.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "shebang-command",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "shebang-regex",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "siginfo",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "signal-exit",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "smol-toml",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.5.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "source-map-js",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "1.2.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "srvx",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.11.16",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "stackback",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "stat-mode",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "statuses",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.5.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "std-env",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.10.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "stream-to-array",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "stream-to-promise",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "streamx",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.28.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "strip-final-newline",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "strip-literal",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "supports-color",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "10.2.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tar",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.5.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tar-stream",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.1.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "text-decoder",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.7",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "throttleit",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "time-span",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tinybench",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.9.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tinyexec",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.3.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tinyglobby",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.2.17",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tinypool",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.1.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tinyrainbow",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tinyspy",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.0.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "to-regex-range",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "toidentifier",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tr46",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.0.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tree-kill",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.2.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "ts-morph",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "12.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "ts-toolbelt",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "6.15.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tslib",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "2.8.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "tsx",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.21.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "uid-promise",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "undici",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.29.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "undici-types",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.26.5",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "unenv",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.0-rc.24",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "universalify",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "unpipe",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "uri-js",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.4.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "uuid",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "14.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vite-node",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vscode-uri",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.2.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "vue-demi",
+      "type": "transitive",
+      "scopes": [
+        "prod"
+      ],
+      "resolved": "0.14.10",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "web-vitals",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.2.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "webidl-conversions",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "3.0.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "whatwg-url",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "which",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "why-is-node-running",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "workerd",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.20260820.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "wrappy",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.2",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "ws",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "8.21.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "xdg-app-paths",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.5.1",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "xdg-portable",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "7.3.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "yallist",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "5.0.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "yauzl",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.10.0",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "yauzl-clone",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "1.0.4",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "yauzl-promise",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "2.1.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "youch",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.0-beta.10",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "youch-core",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "0.3.3",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    },
+    {
+      "name": "zod",
+      "type": "transitive",
+      "scopes": [
+        "dev"
+      ],
+      "resolved": "4.1.11",
+      "source": "registry",
+      "sourceUrl": "http://cmc.cloudartifact.dragon.tools.hihonor.com"
+    }
+  ]
+}

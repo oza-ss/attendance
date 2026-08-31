@@ -1,0 +1,15 @@
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #f7f8fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial, Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+}
+* { box-sizing: border-box; }
+.van-tabbar { position: fixed; }
+.page { padding: 12px 12px 64px; }
+
+/* 全局隐藏滚动条（保留滚动功能） */
+::-webkit-scrollbar { display: none; width: 0; height: 0; }
+html, body { scrollbar-width: none; -ms-overflow-style: none; }
+* { scrollbar-width: none; }
