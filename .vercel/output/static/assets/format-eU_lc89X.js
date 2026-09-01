@@ -1,1 +1,0 @@
-function e(t){if(!Number.isFinite(t))return"—";const r=Math.round(t*60),n=Math.floor(r/60),o=r%60;return o===0?`${n}小时`:`${n}小时${o}分`}function i(t){return Number.isFinite(t)?t.toFixed(2).replace(/\.?0+$/,""):"—"}export{e as a,i as f};
